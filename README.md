@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hey, I'm Usmaan 👋
 
-<!--
-**UsmaanArshadKawoosa/UsmaanArshadKawoosa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Computer Science Engineer • Software Developer • ML Enthusiast
 
-Here are some ideas to get you started:
+I build software at the intersection of **backend systems, machine learning, and modern web development**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently exploring:
+- 🤖 Machine Learning & AI
+- ⚙️ Backend & API Development
+- 🌐 Full-Stack Applications
+- 📊 Data & Automation
+
+---
+
+### Tech Stack
+
+```text
+Languages      Python • Java • C++ • JavaScript • SQL • Go
+Frontend       React • HTML • CSS
+Backend        FastAPI • Flask • Node.js • Express
+Database       PostgreSQL • MongoDB
+ML / Data      Scikit-learn • TensorFlow • Pandas • NumPy
+Tools          Git • Linux • AWS • n8n
