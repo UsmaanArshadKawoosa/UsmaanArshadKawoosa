@@ -1,0 +1,127 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111827">
+        <animate
+          attributeName="stop-color"
+          values="#111827;#1e293b;#111827"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#312e81">
+        <animate
+          attributeName="stop-color"
+          values="#312e81;#164e63;#312e81"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#0f172a">
+        <animate
+          attributeName="stop-color"
+          values="#0f172a;#1e1b4b;#0f172a"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#ffffff">
+        <animate
+          attributeName="offset"
+          values="0;1;0"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect width="1000" height="220" rx="20"/>
+    </clipPath>
+
+  </defs>
+
+  <g clip-path="url(#rounded)">
+
+    <rect
+      width="1000"
+      height="220"
+      fill="url(#bg)"
+    />
+
+    <!-- Moving glow -->
+    <circle
+      cy="110"
+      r="80"
+      fill="#6366f1"
+      opacity="0.12">
+
+      <animate
+        attributeName="cx"
+        values="-100;1100;-100"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- Moving decorative line -->
+    <path
+      d="M-100 175 Q250 80 500 150 T1100 110"
+      fill="none"
+      stroke="#60a5fa"
+      stroke-width="2"
+      opacity="0.25">
+
+      <animate
+        attributeName="d"
+        values="
+          M-100 175 Q250 80 500 150 T1100 110;
+          M-100 120 Q250 180 500 90 T1100 160;
+          M-100 175 Q250 80 500 150 T1100 110"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <!-- Main text -->
+    <text
+      x="500"
+      y="105"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="64"
+      font-weight="700"
+      fill="url(#text)"
+      filter="url(#glow)">
+      Hello!
+    </text>
+
+    <!-- Subtitle -->
+    <text
+      x="500"
+      y="150"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      letter-spacing="3"
+      fill="#cbd5e1">
+      USMAAN KAWOOSA
+    </text>
+
+  </g>
+
+</svg>
