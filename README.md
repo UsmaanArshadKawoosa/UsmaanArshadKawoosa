@@ -1,5 +1,10 @@
 <div align="center">
 
+<img src="./banner.svg" width="100%" alt="Hello">
+
+</div>
+<div align="center">
+
 # Usmaan Kawoosa
 
 ### Computer Science Engineer · Software Developer · ML Enthusiast
