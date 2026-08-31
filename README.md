@@ -22,5 +22,5 @@ AI Engineer and Full-Stack Developer focused on building intelligent, production
 ---
 
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 > Build. Learn. Ship. Repeat.
